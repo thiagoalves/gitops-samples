@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo executing
+echo executing memcached
+docker run --name my-memcache -d memcached
